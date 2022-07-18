@@ -1,0 +1,50 @@
+*{
+			margin: 0;
+			padding: 0;
+		}
+.calculator{
+			background: skyblue;
+			padding: 10px;
+			border-radius: 5px;
+		}
+
+		.textView{
+			width: 215px;
+			font-size: 22px;
+			font-weight: initial;
+			padding: 5px;
+			border-radius: 20px;
+		}
+
+		.button{
+			width: 50px;
+			height: 50px;
+			font-size: 22px;
+			margin: 3px;
+			border-radius: 20px;
+			cursor: pointer;
+			box-shadow: 0px 0px 2px #fdfd;
+		}
+
+		.button:hover{
+			box-shadow: 0px 0px 3px black;
+			color: red ;
+		}
+
+		.equal{
+			height: 110px;
+		}
+
+		.equal:hover{
+			background: red;
+			color: white;
+		}
+
+		.del:hover{
+			background: sandybrown;
+			color: white;
+		}
+
+		.zero{
+			width: 110px;
+		}
